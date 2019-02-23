@@ -1,3 +1,11 @@
+Needs src/telegram_token.py which contains a single line
+token = '999999999:XXXXXXXXXXXXXXXXXXXXXXXX'
+
+RUN this to run Telegram bot 
+docker run --runtime=nvidia -e NVIDIA_VISIBLE_DEVICES=0 -it gpt-2 python3 src/interactive_telegram_conditional_samples.py
+
+
+
 # gpt-2
 
 Code and samples from the paper ["Language Models are Unsupervised Multitask Learners"](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf).
